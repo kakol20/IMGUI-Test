@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
 		}
 
 		// clear
-		SDL_SetRenderDrawColor(renderer, 0, 0, 0, 0);
+		SDL_SetRenderDrawColor(renderer, 128, 128, 128, 255);
 		SDL_RenderClear(renderer);
 
 		// draw
